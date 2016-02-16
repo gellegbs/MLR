@@ -1,0 +1,11 @@
+package com.gellegbs.mlr.items;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+
+public class ItemBasic extends Item{
+
+	public ItemBasic(){
+		setCreativeTab(CreativeTabs.tabMisc);
+	}
+}

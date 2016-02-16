@@ -1,0 +1,20 @@
+package com.gellegbs.mlr.items;
+
+import com.gellegbs.mlr.MLRMain;
+
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.resources.model.ModelResourceLocation;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+
+public class ItemBasic extends Item{
+
+	public ItemBasic(){
+		setCreativeTab(CreativeTabs.tabMisc);
+	}
+	
+	public static void itemRender(){
+		Minecraft.getMinecraft().getRenderItem().getItemModelMesher()
+		.register(MLRMain.carving_knife, 0, new ModelResourceLocation("mlr:carving_knife", "inventory"));
+	}
+}

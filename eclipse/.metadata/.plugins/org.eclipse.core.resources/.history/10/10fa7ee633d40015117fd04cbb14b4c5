@@ -1,0 +1,22 @@
+package com.gellegbs.mlr.init;
+import net.minecraft.item.Item;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+
+
+
+public class MLRItems {
+
+	public static Item carving_knife;
+	
+	//initialization
+	public static void init(){
+		carving_knife = new Item().setUnlocalizedName("carving_knife");
+	}
+	
+	public static void register(){
+		GameRegistry.registerItem(carving_knife, carving_knife.getUnlocalizedName().substring(5));
+	}
+	public static void registerRenders(Item item){
+		
+	}
+}

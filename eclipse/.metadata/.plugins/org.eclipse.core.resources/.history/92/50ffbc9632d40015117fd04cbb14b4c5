@@ -1,0 +1,8 @@
+package com.gellegbs.mlr.init;
+
+public class MLRItems {
+
+	public static void register(){
+		
+	}
+}

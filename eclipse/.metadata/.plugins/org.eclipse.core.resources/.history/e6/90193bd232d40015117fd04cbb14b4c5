@@ -1,0 +1,10 @@
+package com.gellegbs.mlr.init;
+
+public class MLRItems {
+
+	public static Item carving_knife;
+	
+	public static void register(){
+		
+	}
+}

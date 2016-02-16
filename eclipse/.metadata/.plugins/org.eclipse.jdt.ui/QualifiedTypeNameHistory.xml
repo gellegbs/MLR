@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.gellegbs.mlr.Reference"/>
+<fullyQualifiedTypeName name="com.gellegbs.mlr.init.MLRItems"/>
+<fullyQualifiedTypeName name="com.gellegbs.mlr.proxy.CommonProxy"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.registry.GameRegistry"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
+<fullyQualifiedTypeName name="net.minecraft.creativetab.CreativeTabs"/>
+<fullyQualifiedTypeName name="net.minecraft.client.Minecraft"/>
+<fullyQualifiedTypeName name="com.gellegbs.mlr.MLRMain"/>
+</qualifiedTypeNameHistroy>

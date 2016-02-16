@@ -1,0 +1,30 @@
+package com.gellegbs.mlr.init;
+import com.gellegbs.mlr.Reference;
+
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.resources.model.ModelResourceLocation;
+import net.minecraft.item.Item;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+
+
+
+public class MLRItems {
+
+	public static Item carving_knife;
+	
+	//initialization
+	public static void init(){
+		carving_knife = new Item().setUnlocalizedName("carving_knife");
+	}
+	
+	public static void register(){
+		GameRegistry.registerItem(carving_knife, carving_knife.getUnlocalizedName().substring(5));
+	}
+	public static void registerRenders(){
+		
+	}
+	
+	public static void registerRender(Item item){
+		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(Reference.MODID + ":" + item.getUnlocalizedName().substring(5), "inventory"));
+	}
+}

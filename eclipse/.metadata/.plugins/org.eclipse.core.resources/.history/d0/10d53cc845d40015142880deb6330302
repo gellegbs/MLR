@@ -1,0 +1,8 @@
+package com.gellegbs.mlr.proxy;
+
+public class CommonProxy {
+
+	public void registerRenders(){
+		
+	}
+}

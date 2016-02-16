@@ -1,0 +1,11 @@
+package com.gellegbs.mlr.proxy;
+
+import com.gellegbs.mlr.init.MLRItems;
+
+public class ClientProxy extends CommonProxy {
+	
+	@Override
+	public void registerRenders(){
+		MLRItems.registerRenders();
+	}
+}
